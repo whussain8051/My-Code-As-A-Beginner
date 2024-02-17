@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Functions With Return Value</title>
+    <script type="text/javascript">
+
+        function fullName(Fname = "" , Lname = "") {
+            var a = Fname + " " + Lname + "</br>";
+
+            return a;
+        }
+
+        var fn = fullName("Mirza","Waqar");
+        document.write(fn);
+
+        var b = fullName("Waqar" , "Mirza");
+        document.write(b);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
