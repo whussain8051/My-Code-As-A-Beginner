@@ -6,7 +6,16 @@
     <title>JS Arrays</title>
     <script type="text/javascript">
         var arr = [10,20,30,40,50];
-        document.write(arr[2]);
+        var sum = 0;
+        
+        document.write("<ul>");
+        for (let a = 0; a <= 4; a++) {
+            document.write("<li>" + arr[a] + "<br>" + "</li>");
+            sum = sum + arr[a];
+        }
+        document.write("</ul>");
+
+        document.write("Total Sum is : " + sum);
     </script>
 </head>
 <body>
